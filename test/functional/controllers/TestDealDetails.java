@@ -7,6 +7,8 @@ import static play.test.Helpers.callAction;
 import static play.test.Helpers.contentAsString;
 import static play.test.Helpers.status;
 
+import models.Deal;
+
 import org.junit.Test;
 
 import play.mvc.Result;
@@ -16,9 +18,10 @@ public class TestDealDetails {
 	@Test
 	public void test() {
 		Result result = callAction(controllers.routes.ref.Application
-				.dealDetails("korean_tour"));
+				.dealDetails(1L));
 		assertThat(status(result)).isEqualTo(OK);
 	    assertThat(contentAsString(result)).contains("Korean Tour");
+	    assertThat(contentAsString(result)).contains("13500");
 	}
 
 }

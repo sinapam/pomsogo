@@ -1,7 +1,8 @@
-package th.in.pomsogo.models;
+package models;
 
 import static org.junit.Assert.*;
-import th.in.pomsogo.models.Deal;
+
+import models.Deal;
 
 import org.junit.Test;
 
@@ -12,8 +13,8 @@ public class TestDeal {
 		String title = "Korean Tour";
 		double price = 13500;
 		Deal deal = new Deal(title, price);
-		assertEquals(title, deal.getTitle());
-		assertEquals(price, deal.getPrice(), 0);
+		assertEquals(title, deal.title);
+		assertEquals(price, deal.price, 0);
 	}
 
 }
