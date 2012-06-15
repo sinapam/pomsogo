@@ -3,7 +3,9 @@ A demo project for TDD course using Java
 == Development setup ==
 1. download Play 1.2.4 http://www.playframework.org/download 
 2. add Play to your PATH
-3. open the project with Eclipse
+3. at project folder in command line, run $> play deps
+4. at project folder in command line, run $> play eclipsify 
+5. open the project with Eclipse
 
 == Run test ==
 1. at project folder in command line, run $> play test
