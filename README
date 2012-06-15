@@ -1,2 +1,14 @@
 A demo project for TDD course using Java
 
+== Development setup ==
+1. download Play 1.2.4 http://www.playframework.org/download 
+2. add Play to your PATH
+3. open the project with Eclipse
+
+== Run test ==
+1. at project folder in command line, run $> play test
+2. visit http://localhost:9000/@tests and Start all tests
+
+== Run server ==
+1. at project folder in command line, run $> play run
+2. visit http://localhost:9000
