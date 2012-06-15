@@ -5,3 +5,4 @@ tmp
 test-result
 eclipse/classes
 *.swp
+*~

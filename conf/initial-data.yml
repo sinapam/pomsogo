@@ -1,0 +1,6 @@
+# you describe your data using the YAML notation here
+# and then load them using Fixtures.load("data.yml")
+
+Deal(koreanTour):
+  title: Korean Tour
+  price: 13500.0

@@ -5,6 +5,9 @@
 # Home page
 GET     /                                       Application.index
 
+# Deal details
+GET		/deal/{id}								Application.deal_details
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
