@@ -3,3 +3,24 @@
 
 <h1 id="title">${deal.title}</h1>
 <div id="price">${deal.price} Baht</div>
+
+<form action="${paypal}/cgi-bin/webscr" method="post"> 
+ 
+    <!-- Identify your business so that you can collect the payments. --> 
+    <input type="hidden" name="business" value="psogo_1339764396_biz@gmail.com"> 
+ 
+    <!-- Specify a Buy Now button. --> 
+    <input type="hidden" name="cmd" value="_xclick"> 
+ 
+    <!-- Specify details about the item that buyers will purchase. --> 
+    <input type="hidden" name="item_name" value="${deal.price}"> 
+    <input type="hidden" name="amount" value="${deal.price}">  
+    <input type="hidden" name="currency_code" value="THB"> 
+ 
+    <!-- Display the payment button. --> 
+    <input type="image" name="submit" border="0" 
+        src="${paypal}/en_US/i/btn/btn_buynowCC_LG.gif" 
+        alt="PayPal - The safer, easier way to pay online"> 
+    <img alt="" border="0" width="1" height="1" 
+        src="${paypal}/en_US/i/scr/pixel.gif" > 
+</form>
