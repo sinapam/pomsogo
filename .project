@@ -15,5 +15,16 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.playframework.playclipse.playNature</nature>
 	</natures>
-	
+	<linkedResources>
+		<link>
+			<name>mockito-0.1</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/modules/mockito-0.1/app</locationURI>
+		</link>
+		<link>
+			<name>conf/mockito-0.1</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/modules/mockito-0.1/conf</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
