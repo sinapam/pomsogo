@@ -14,7 +14,7 @@ public class TestDealDetails extends FunctionalTest {
         assertContentType("text/html", response);
         assertContentMatch("ทัวร์เกาหลี", response);
         assertContentMatch("13500", response);
-
+        assertContentMatch("พร้อมหลงใหลไปกับเสน่ห์แห่งสีสันของแดนโสม", response);
 	}
 
 	@Test
@@ -24,7 +24,7 @@ public class TestDealDetails extends FunctionalTest {
         assertContentType("text/html", response);
         assertContentMatch("ออโรร่าสปา", response);
         assertContentMatch("2500", response);
-
+        assertContentMatch("ให้คุณสามารถสัมผัสประสบการณ์ความผ่อนคลาย", response);
 	}
 
 }
