@@ -1,36 +1,20 @@
-
-
-import org.junit.After;
-import org.junit.Before;
 import com.thoughtworks.selenium.SeleneseTestCase;
 
+@SuppressWarnings("deprecation")
 public class DemoTestLibrary extends SeleneseTestCase {
 
-	@Before
 	public void setUp() throws Exception {
-		setUp("http://localhost:9000/", "*chrome");
+		setUp("http://localhost:9000/", "*firefox");
 	}
 
-	public void goToEstimationPage() throws Exception {
+	public void goToHomePage() throws Exception {
 		selenium.open("/");
-		selenium.type("sb_form_q", "selenium tutorial");
-		selenium.click("sb_form_go");
-		selenium.waitForPageToLoad("80000");
-		selenium.click("link=www.jroller.com");
-		selenium.waitForPageToLoad("80000");
 	}
 
-	public void selectStoryPointToCompare() throws Exception {
-		selenium.open("/");
-		selenium.type("sb_form_q", "selenium tutorial");
-		selenium.click("sb_form_go");
-		selenium.waitForPageToLoad("80000");
-		selenium.click("link=www.jroller.com");
-		selenium.waitForPageToLoad("80000");
+	public void goToDealDetailsPage() throws Exception {
+		selenium.open("/deal/1");
 	}
-
-
-	@After
+	
 	public void tearDown() throws Exception {
 		selenium.stop();
 	}

@@ -78,6 +78,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="/home/juacompe/applications/play-1.2.4/framework/lib/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="/home/juacompe/applications/play-1.2.4/framework/lib/jj-imaging.jar"/>
-	<classpathentry kind="lib" path="lib/selenium-java-2.23.1.jar"/>
+	<classpathentry kind="lib" path="/home/juacompe/bin/selenium-server-standalone-2.23.1.jar"/>
 	<classpathentry kind="output" path="eclipse/classes"/>
 </classpath>
