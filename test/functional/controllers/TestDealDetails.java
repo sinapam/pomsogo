@@ -8,12 +8,22 @@ import play.test.FunctionalTest;
 public class TestDealDetails extends FunctionalTest {
 
 	@Test
-	public void testGetDealDetails() {
-        Response response = GET("/application/deal_details?id=1");
+	public void testGetKoreanTourDealDetails() {
+        Response response = GET("/deal/1");
         assertIsOk(response);
         assertContentType("text/html", response);
-        assertContentMatch("Korean Tour", response);
+        assertContentMatch("ทัวร์เกาหลี", response);
         assertContentMatch("13500", response);
+
+	}
+
+	@Test
+	public void testGetAuroraSpaDealDetails() {
+        Response response = GET("/deal/2");
+        assertIsOk(response);
+        assertContentType("text/html", response);
+        assertContentMatch("ออโรร่าสปา", response);
+        assertContentMatch("2500", response);
 
 	}
 

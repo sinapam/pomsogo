@@ -2,5 +2,13 @@
 # and then load them using Fixtures.load("data.yml")
 
 Deal(koreanTour):
-  title: Korean Tour
+  title: ทัวร์เกาหลี
   price: 13500.0
+
+Deal(auroraSpa):
+  title: ออโรร่าสปา
+  price: 2500.0
+
+Deal(kfc):
+  title: บุฟเฟต์ไก่กระต๊าก
+  price: 350.0
