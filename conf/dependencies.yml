@@ -2,3 +2,5 @@
 
 require:
     - play
+    - play -> mockito 0.1
+

@@ -3,6 +3,8 @@ project/target
 target
 tmp
 test-result
-eclipse/classes
+eclipse
+lib
+modules
 *.swp
 *~
