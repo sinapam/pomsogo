@@ -2,6 +2,10 @@
 <classpath>
 	<classpathentry excluding="views/**" kind="src" path="app"/>
 	<classpathentry kind="src" path="test"/>
+<<<<<<< HEAD
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/juacompe/applications/play-1.2.4/framework/play-1.2.4.jar" sourcepath="/home/juacompe/applications/play-1.2.4/framework/src"/>
+=======
 	<classpathentry kind="src" path="mockito-0.1"/>
 	
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
@@ -11,6 +15,7 @@
 	<classpathentry kind="lib" path="/home/juacompe/workspace/pomsogo/lib/objenesis-1.0.jar"/>
 	<classpathentry kind="lib" path="/home/juacompe/workspace/pomsogo/modules/mockito-0.1/lib/play-mockito.jar"/>
 	<classpathentry kind="lib" path="/home/juacompe/workspace/pomsogo/modules/mockito-0.1/lib/mockito-all-1.9.1-SNAPSHOT.jar"/>
+>>>>>>> feature/handle_ipn
 	<classpathentry kind="lib" path="/home/juacompe/applications/play-1.2.4/framework/lib/commons-io-2.0.1.jar"/>
 	<classpathentry kind="lib" path="/home/juacompe/applications/play-1.2.4/framework/lib/commons-fileupload-1.2.2.jar"/>
 	<classpathentry kind="lib" path="/home/juacompe/applications/play-1.2.4/framework/lib/joda-time-2.0.jar"/>
