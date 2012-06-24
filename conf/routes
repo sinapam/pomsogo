@@ -8,6 +8,9 @@ GET     /                                       Application.index
 # Deal details
 GET		/deal/{id}								Application.deal_details
 
+# Deal details
+GET		/ipn									Application.ipn
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 

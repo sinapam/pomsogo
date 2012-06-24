@@ -1,0 +1,3 @@
+#!/bin/bash
+cd `dirname $0`
+CLASSPATH=$HOME/applications/play-1.2.4/framework/lib/junit-4.8.1.jar:$HOME/bin/selenium-server-standalone-2.23.1.jar:./eclipse/classes jybot test/demo_test_suite.html 

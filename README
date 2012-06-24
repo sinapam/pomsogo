@@ -13,3 +13,5 @@ A demo project for TDD course using Java
 == Run server ==
 1. at project folder in command line, run $> play run
 2. visit http://localhost:9000
+
+Test CI
