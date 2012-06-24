@@ -1,6 +1,7 @@
 A demo project for TDD course using Java
-
+=======================
 == Development setup ==
+=======================
 1. download Play 1.2.4 http://www.playframework.org/download 
 2. add Play to your PATH
 3. open the project with Eclipse
